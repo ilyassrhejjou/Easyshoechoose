@@ -1,0 +1,10 @@
+.top_main{
+display: flex;
+justify-content: center;
+}
+
+.ad__image{
+    margin-top: 10px;
+    width: 220px;
+    height: 270px;
+}
