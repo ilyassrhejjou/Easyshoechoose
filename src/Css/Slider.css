@@ -2,7 +2,7 @@
     flex-grow: 1;
     max-width: 800px;
     height: 320px;
-    margin: 10px 20px 0 20px;
+    margin: 0px 20px 0 20px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -11,6 +11,9 @@
     .container-slider {
       margin: 100px 10px 0;
     }
+  }
+  .body_main{
+    height: 100%;
   }
   .slide {
     width: 100%;
@@ -31,9 +34,11 @@
   .btn-slide {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background: #f1f1f1;
-    border: 1px solid rgba(34, 34, 34, 0.287);
+    /*border-radius: 50%;*/
+   /* background: #f1f1f1;*/
+   background: transparent;
+   border: none;
+   /* border: 1px solid rgba(34, 34, 34, 0.287);*/
     position: absolute;
     display: flex;
     justify-content: center;
@@ -42,8 +47,8 @@
   }
   
   .btn-slide img {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     pointer-events: none;
   }
   .prev {

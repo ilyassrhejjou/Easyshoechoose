@@ -4,7 +4,7 @@ justify-content: center;
 }
 
 .ad__image{
-    margin-top: 10px;
-    width: 220px;
-    height: 270px;
+    margin-top: 0;
+    width: 210px;
+    height: 300px;
 }

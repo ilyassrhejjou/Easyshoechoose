@@ -5,8 +5,8 @@ import Ads from "./Ads";
 import img from "../img/img1.jpg";
 import img2 from "../img/img2.jpg";
 import img3 from "../img/img3.jpg";
-import ad1 from "../img/ad1.jpg";
-import ad2 from "../img/coke.png";
+import ad1 from "../img/ad1.gif";
+import ad2 from "../img/ad2.gif";
 const Home=()=>{
     return(
         <>
