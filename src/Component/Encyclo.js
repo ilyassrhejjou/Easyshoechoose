@@ -57,6 +57,25 @@ const Encyclo = () => {
                                 </div>
                             </button>
 
+                            <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
+                                <h1 className="titre_chaussure">
+                                    Nike Revolution 6
+                                </h1>
+
+
+                                <div className="img_chaussure">
+                                    <img src={Nike_revolution} width="150px" height="150px" className="flottant" />
+                                </div>
+                                <div className="liste_caracteristique">
+                                    <ul>
+                                        <li>Légerté</li>
+                                        <li>Confort</li>
+                                        <li>Compatibilité à tous les terrains</li>
+                                        <li>98.45€</li>
+                                    </ul>
+                                </div>
+                            </button>
+
 
                             <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
                                 <h1 className="titre_chaussure">
@@ -77,29 +96,6 @@ const Encyclo = () => {
                                     </ul>
                                 </div>
                             </button>
-
-
-
-
-                            <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
-                                <h1 className="titre_chaussure">
-                                    Nike Revolution 6
-                                </h1>
-
-
-                                <div className="img_chaussure">
-                                     <img src={Nike_revolution} width="150px" height="150px" className="flottant" />
-                                </div>
-                                <div className="liste_caracteristique">
-                                    <ul>
-                                        <li>Légerté</li>
-                                        <li>Confort</li>
-                                        <li>Compatibilité à tous les terrains</li>
-                                        <li>98.45€</li>
-                                    </ul>
-                                </div>
-                            </button>
-
 
 
 
