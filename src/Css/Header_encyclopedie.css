@@ -1,0 +1,56 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    margin: 20px 200px 10px 200px;
+    text-align: center;
+    text-decoration : dashed;
+    align-items : center;
+}
+
+
+
+.reset_filtre {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+    width: 210px;
+    background-color: #F5FFFA;
+}
+
+.reset_filtre:hover {
+    background-color: #733349;
+    color : white;
+}
+
+.filtrer_par {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+    width: 110px;
+    background-color: #F5FFFA;
+}
+
+.filtrer_par:hover {
+    background-color: #733349;
+    color : white;
+}
+
+.homme_femme {
+    border: 1px solid black;
+    padding: 2px 2px 2px 2px;
+    border-radius: 4px;
+    height: 60px;
+    width: 210px;
+    background-color: #F5FFFA;
+}
+
+.box {
+    width: 7%;
+}
+
+.box:hover{
+    width: 7.5%;
+}
