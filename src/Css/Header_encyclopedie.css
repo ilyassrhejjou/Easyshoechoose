@@ -4,9 +4,10 @@
     flex-direction: row;
     justify-content: space-around;
     color: black;
-    margin: 10px 300px 10px 100px;
+    margin: 20px 200px 10px 200px;
     text-align: center;
     text-decoration : dashed;
+    align-items : center;
 }
 
 
