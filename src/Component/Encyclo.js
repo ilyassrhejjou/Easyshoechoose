@@ -99,6 +99,7 @@ const Encyclo = () => {
 
 
 
+
                             <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
                                 <h1 className="titre_chaussure">
                                     BROOKS Glycerine 19
