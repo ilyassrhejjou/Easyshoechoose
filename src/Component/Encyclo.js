@@ -39,7 +39,7 @@ const Encyclo = () => {
 
                     <div className="body">
                         <div className="List_chaussure">
-                            <button onClick={() => history.push(`/shoe/ilyss${Brooks_Cascada_19}`)} className="card_chaussure">
+                            <button onClick={() => history.push(`/shoe/BROOKS Cascadia 16${Brooks_Cascada_19}`)} className="card_chaussure">
                                 <h1 className="titre_chaussure">
                                     BROOKS Cascadia 16
                                 </h1>
@@ -57,7 +57,7 @@ const Encyclo = () => {
                                 </div>
                             </button>
 
-                            <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
+                            <button onClick={() => history.push(`/shoe/Nike Revolution 6${Nike_revolution}`)} className="card_chaussure">
                                 <h1 className="titre_chaussure">
                                     Nike Revolution 6
                                 </h1>
@@ -77,7 +77,7 @@ const Encyclo = () => {
                             </button>
 
 
-                            <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
+                            <button onClick={() => history.push(`/shoe/ASICS Gel Excite-W9${Asics}`)} className="card_chaussure">
                                 <h1 className="titre_chaussure">
                                     ASICS Gel Excite-W9
                                 </h1>
@@ -100,7 +100,7 @@ const Encyclo = () => {
 
 
 
-                            <button onClick={() => history.push(`/shoe/`)} className="card_chaussure">
+                            <button onClick={() => history.push(`/shoe/BROOKS Glycerine 19${Brooks_glycerine}`)} className="card_chaussure">
                                 <h1 className="titre_chaussure">
                                     BROOKS Glycerine 19
                                 </h1>

@@ -1,5 +1,8 @@
 import React from "react";
 import "../Css/Error.css";
+import Facebook from '@material-ui/icons/Facebook';
+import Instagram from '@material-ui/icons/Instagram';
+import Twitter from '@material-ui/icons/Twitter';
 const Error404=()=>{
     return(
         <>
@@ -10,13 +13,12 @@ const Error404=()=>{
 				<h1>404</h1>
 			</div>
 			<h2>La page que vous recherchez semble introuvable</h2>
-			<a href="#" class="home-btn">Acceuil</a>
-			<a href="#" class="contact-btn">Contactez nous</a>
+			<a href="/" class="home-btn">Acceuil</a>
+			<a href="/contact" class="contact-btn">Contactez nous</a>
 			<div class="notfound-social">
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-google-plus"></i></a>
+            <Facebook onClick={()=> window.location.href = 'https://www.facebook.com/nike/'} className="IconFooter"/>
+            <Instagram onClick={()=> window.location.href = 'https://www.instagram.com/nike/?hl=en'} className="IconFooter"/>
+            <Twitter onClick={()=> window.location.href = 'https://twitter.com/Nike/'} className="IconFooter"/>
 			</div>
 		</div>
 	</div>
