@@ -27,9 +27,14 @@ input[type="button"] {
     background: #fc4366;
     color: #fff;
     font-weight: 700;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    margin-top: 1.3em;
+    font-size: 1rem;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 1.6em;
+    position: absolute;
+    width: 240px;
+    text-align: center;
+    left: 565px;
 }
 .body_main2{
     background: rgba(100, 43, 115);  /* fallback for old browsers */
